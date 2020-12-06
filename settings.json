@@ -1,0 +1,35 @@
+{
+  "window.zoomLevel": -1,
+  "editor.minimap.enabled": false,
+     
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  "go.formatTool": "goimports",
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  
+  "python.languageServer": "Pylance",
+
+  "java.codeGeneration.generateComments": true,
+  "java.completion.importOrder": [
+      "java",
+      "javax",
+      "com",
+      "org"
+  ],
+  "java.completion.enabled": true,
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "java.saveActions.organizeImports": true
+}
